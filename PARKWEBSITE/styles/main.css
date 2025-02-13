@@ -162,6 +162,12 @@ button{
   font-weight: bold;
 }
 
+.payment-step h2 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
 .payment-option{
   height: 64px;
 }
@@ -169,7 +175,7 @@ button{
 .sidy-by-side{
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  justify-content: space-around;
 }
 
 .description{
