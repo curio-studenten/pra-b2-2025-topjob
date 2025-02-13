@@ -122,6 +122,17 @@ article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
 }
 
+.emphasize {
+  border-left: 5px solid #27AE60;
+  box-shadow: 1px 0px 5px #27AE60;
+  padding: 1em;
+}
+
+.emphasize h2 {
+  margin: 0;
+  text-align: center;
+}
+
 .product{
   margin-right: 1em;
   padding: 1em;
@@ -156,6 +167,9 @@ button{
 }
 
 .sidy-by-side{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .description{
@@ -214,11 +228,11 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.woff') format('woff'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf');
 }
 
 /*
