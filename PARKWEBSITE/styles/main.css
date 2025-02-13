@@ -138,6 +138,7 @@ article h2.open-forever{
   padding: 1em;
 }
 
+
 .emphasize h2 {
   margin: 0;
   text-align: center;
@@ -170,6 +171,7 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .payment-step h2 {
