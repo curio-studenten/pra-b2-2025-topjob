@@ -18,17 +18,46 @@
   </header>
   <main>
     <div class="wrapper">
-      <article>
+      <article class="cart-article">
         <h2>Winkelwagentje</h2>
-        <div>
-          <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
-          
-          <button>Dit is correct, verder naar betaling</button>
-        </div>
       </article>
+      <div>
+        <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
+      </div>
+      <div role="region" tabindex="0">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Prijs (enkel)</th>
+                    <th>Aantal</th>
+                    <th>Prijs (totaal)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Entreekaartje Kind t/m 3 jaar</td>
+                    <td>&euro; 0</td>
+                    <td>1</td>
+                    <td>&euro; 0</td>
+                </tr>
+                <tr>
+                    <td>Entreekaartje Regulier</td>
+                    <td>&euro; 24,95</td>
+                    <td>2</td>
+                    <td>&euro; 49,90</td>
+                </tr>
+                <tr>
+                    <td>Entreekaartje Senior</td>
+                    <td>&euro; 14,95</td>
+                    <td>1</td>
+                    <td>&euro; 14,95</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+      
+      <a href="payment.html" id="button">Dit is correct, verder naar betaling</a>
     </div>
   </main>
   <footer>
